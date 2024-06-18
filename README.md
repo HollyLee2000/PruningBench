@@ -31,13 +31,16 @@ PruningBench is a comprehensive benchmark of structural pruning with the followi
 For more technical details, please refer to our paper:
 > [**PruningBench: A Comprehensive Benchmark of Structural Pruning**](TBD)   
 > *Haoling Li, Changhao Li, Mengqi Xue, Gongfan Fang, Sheng Zhou, Zunlei Feng, Huiqiong Wang, Yong Wang, Lechao Cheng, Mingli Song, Jie Song*
-> *[Learning and Vision Lab](http://lv-nus.org/), National University of Singapore*
-> *[VIPA Lab](https://www.vipazoo.cn/), ZheJiang University*
+> (*[VIPA Lab](https://www.vipazoo.cn/), ZheJiang University* & *[Learning and Vision Lab](http://lv-nus.org/), National University of Singapore*)
+
 
 Our online [[platform](http://pruning.vipazoo.cn/)] enables users to customize pruning tasks by selecting models, datasets, methods, and hyperparameters, facilitating the reproducibility of the results presented in the paper.
 
 Codes will be made available soon!
 
+### Evaluated Methods
+
+PruningBench has now systematically evaluated 16 structural pruning methods, including importance criteria and sparsity regularizers:  
 
 ### Current Leaderboards
 
