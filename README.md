@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-4caf50.svg" alt="License"></a>
   <a href="http://pruning.vipazoo.cn/">
-  <img src="assets/button.svg" width="25.5% alt="Online Platform"/>
+  <img src="assets/button.svg" width="23%" alt="Online Platform">
 </a>
   <a href="https://arxiv.org/abs/2301.12900" target="_blank"><img src="https://img.shields.io/badge/arXiv-2301.12900-009688.svg" alt="arXiv"></a>
 </p>
