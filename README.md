@@ -2,10 +2,10 @@
 
 <br>
 <div align="center">
-<img src="assets/bench.png" width="400px"></img>
+<img src="assets/bench.svg" width="400px"></img>
 <h2></h2>
 <h3>A Comprehensive Benchmark of Structural Pruning<h3>
-<img src="assets/intro.png" width="100%">
+<img src="assets/intro.svg" width="100%">
 </div>
 
 <p align="center">
