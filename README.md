@@ -65,6 +65,12 @@ The following leaderboards adopt "global pruning with 10% group-wise protection"
 
 
 ## Citation
+@article{li2024pruningbench,
+  title={PruningBench: A Comprehensive Benchmark of Structural Pruning},
+  author={Haoling Li, Changhao Li, Mengqi Xue, Gongfan Fang, Sheng Zhou, Zunlei Feng, Huiqiong Wang, Yong Wang, Lechao Cheng, Mingli Song, Jie Song},
+  journal={arXiv preprint arXiv:2406.12315},
+  year={2024}
+}
 <!-- ```
 @inproceedings{fang2023depgraph,
   title={Depgraph: Towards any structural pruning},
