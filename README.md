@@ -13,7 +13,7 @@
   <a href="http://pruning.vipazoo.cn/">
   <img src="assets/button.svg" width="23%" alt="Online Platform">
 </a>
-  <a href="https://arxiv.org/abs/2301.12900" target="_blank"><img src="https://img.shields.io/badge/arXiv-2301.12900-009688.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2406.12315" target="_blank"><img src="https://img.shields.io/badge/arXiv-2301.12900-009688.svg" alt="arXiv"></a>
 </p>
 
 
@@ -29,7 +29,7 @@ PruningBench is a comprehensive benchmark of structural pruning with the followi
 
 
 For more technical details, please refer to our paper:
-> [**PruningBench: A Comprehensive Benchmark of Structural Pruning**](TBD)   
+> [**PruningBench: A Comprehensive Benchmark of Structural Pruning**](https://arxiv.org/abs/2406.12315)   
 > *Haoling Li, Changhao Li, Mengqi Xue, Gongfan Fang, Sheng Zhou, Zunlei Feng, Huiqiong Wang, Yong Wang, Lechao Cheng, Mingli Song, Jie Song*
 > (*[VIPA Lab](https://www.vipazoo.cn/), ZheJiang University* & *[Learning and Vision Lab](http://lv-nus.org/), National University of Singapore*)
 
