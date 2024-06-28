@@ -13,7 +13,7 @@
   <a href="http://pruning.vipazoo.cn/">
   <img src="assets/button.svg" width="23%" alt="Online Platform">
 </a>
-  <a href="https://arxiv.org/abs/2301.12900" target="_blank"><img src="https://img.shields.io/badge/arXiv-2301.12900-009688.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2406.12315" target="_blank"><img src="https://img.shields.io/badge/arXiv-2301.12315-009688.svg" alt="arXiv"></a>
 </p>
 
 
@@ -451,7 +451,7 @@ Resnet-50__Imagenet
 | Ours-Group | 93.53 | 93.77 | +0.38 | 2.13x | -->
 
 
-## Citation
+## Method
 <!-- ```
 @inproceedings{fang2023depgraph,
   title={Depgraph: Towards any structural pruning},
@@ -481,3 +481,12 @@ Resnet-50__Imagenet
 | 13 | [A note on the group lasso and a sparse group lasso](https://arxiv.org/pdf/1001.0736)                                                                               | MagnitudeL1(MagnitudeL2)   | arXiv 2010  | -       |
 
 
+## Citation
+```
+@article{li2024pruningbench,
+  title={PruningBench: A Comprehensive Benchmark of Structural Pruning},
+  author={Li, Haoling and Li, Changhao and Xue, Mengqi and Fang, Gongfan and Zhou, Sheng and Feng, Zunlei and Wang, Huiqiong and Wang, Yong and Cheng, Lechao and Song, Mingli and others},
+  journal={arXiv preprint arXiv:2406.12315},
+  year={2024}
+}
+```
