@@ -51,7 +51,7 @@ Leaderboard of Resnet50 on CIFAR100
 <details>
 <summary>2x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|     
 | OBD-C\*       | N/A                                   | 1  | 78\.35 | 78\.68 | \+0\.33 | 16\.45 M (69\.39%) | 7\.559s  | N/A   
 | Taylor\*    | N/A                                   | 2  | 78\.35 | 78\.51 | \+0\.16 | 16\.65 M (70\.24%) | 3\.740s  | N/A   
@@ -77,7 +77,7 @@ Leaderboard of Resnet50 on CIFAR100
 <details>
 <summary>4x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|    
 |FPGM                                                 | N/A                                   | 1  | 78\.35 | 78\.02 | \-0\.33 | 10\.23 M (43\.16%) | 0\.163s  | N/A   
 | MagnitudeL2                  | N/A                                   | 2  | 78\.35 | 77\.98 | \-0\.37 | 10\.71 M (45\.19%) | 0\.136s  | N/A   
@@ -102,7 +102,7 @@ Leaderboard of Resnet50 on CIFAR100
 <details>
 <summary>8x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|        
 | MagnitudeL1                 | N/A                                   | 1  | 78\.35 | 76\.99 | \-1\.36 | 6\.82 M (28\.77%)  | 0\.137s  | N/A   
 | MagnitudeL2                  | N/A                                   | 2  | 78\.35 | 76\.38 | \-1\.97 | 6\.89 M (29\.05%)  | 0\.136s  | N/A   
@@ -131,7 +131,7 @@ Leaderboard of Resnet18 on CIFAR100
 <details>
 <summary>2x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  Taylor\* | N/A                                | 1  | 75.61 | 75.93 | +0.32 | 7.79 M (69.42%)  | 1.598s  | N/A      |  2x  |  
  MagnitudeL1            | N/A                              | 2  | 75.61 | 75.80 | +0.19 | 7.47 M (66.62%)  | 0.058s  | N/A     |  2x  | 
@@ -156,7 +156,7 @@ Leaderboard of Resnet18 on CIFAR100
 <details>
 <summary>4x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  MagnitudeL2          | N/A                                | 1  | 75.61 | 74.01 | -1.60 | 4.43 M (39.51%)  | 0.261s  | N/A     |  4x  | 
  ThiNet\*           | N/A                                | 2  | 75.61 | 73.99 | -1.62 | 2.59 M (23.12%)  | 7.815s  | N/A     |  4x  | 
@@ -180,7 +180,7 @@ Leaderboard of Resnet18 on CIFAR100
 <details>
 <summary>8x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  MagnitudeL2          | N/A                                | 1  | 75.61 | 71.87 | -3.74 | 2.32 M (20.65%)  | 0.261s  | N/A     |  8x  | 
  BNScale             | N/A                                | 2  | 75.61 | 71.31 | -4.30 | 2.37 M (21.17%)  | 0.263s  | N/A     |  8x  | 
@@ -209,7 +209,7 @@ Leaderboard of VGG-19 on CIFAR100
 <details>
 <summary>2x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  CP\*              | N/A                                  | 1  | 73.87 | 74.16 | +0.29  | 4.93 M (24.54%)  | 1m2s    | N/A     |
  HRank\*            | N/A                                | 2  | 73.87 | 73.63 | -0.24  | 6.24 M (31.08%)  | 13m59s  | N/A     |
@@ -235,7 +235,7 @@ Leaderboard of VGG-19 on CIFAR100
 <details>
 <summary>4x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  FPGM                   | N/A                                | 1  | 73.87 | 72.38 | -1.49  | 3.11 M (15.49%)  | 0.346s  | N/A     |
  LAMP                    | N/A                                | 2  | 73.87 | 72.30 | -1.57  | 1.91 M (9.49%)   | 0.063s  | N/A     |
@@ -261,7 +261,7 @@ Leaderboard of VGG-19 on CIFAR100
 <details>
 <summary>8x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  LAMP                    | N/A                                | 1  | 73.87 | 69.72 | -4.15  | 0.84 M (4.17%)   | 0.063s  | N/A     |
  MagnitudeL1            | N/A                                | 2  | 73.87 | 68.82 | -5.05  | 1.49 M (7.41%)   | 0.156s  | N/A     |
@@ -291,7 +291,7 @@ Leaderboard of ViT-small on ImageNet
 <details>
 <summary>2x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|    
 | FPGM                          | N/A                                   | 1 | 78\.588 | 69\.248 | \-9\.34   | 10\.365 M (47\.01\%)  | 0\.937s  | N/A      
 | Random\*      | N/A                                   | 2 | 78\.588 | 68\.810 | \-9\.778  | 9\.305 M (42\.20\%)   | 0\.888s  | N/A       
@@ -311,7 +311,7 @@ Leaderboard of ViT-small on ImageNet
 <details>
 <summary>3x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|    
 | MagnitudeL1                 | N/A                                   | 1 | 78\.588 | 63\.120 | \-15\.468 | 6\.57 M (29\.79\%)    | 1\.005s  | N/A       
 | LAMP                         | N/A                                   | 2 | 78\.588 | 62\.538 | \-16\.050 | 6\.08 M (27\.57\%)    | 1\.284s  | N/A       
@@ -330,7 +330,7 @@ Leaderboard of ViT-small on ImageNet
 <details>
 <summary>4x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|    
  
 | MagnitudeL1                 | N/A                                   | 1 | 78\.588 | 59\.950 | \-18\.638 | 5\.06 M (22\.93\%)    | 1\.005s  | N/A     |  2x  |  8x |  
@@ -354,7 +354,7 @@ Leaderboard of YOLOv8 on COCO
 <details>
 <summary>2x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  ThiNet\*           | N/A                                | 1  | 49.993 | 44.637 | -5.356  | 8.74 M (33.72%)  | 8m43s   | N/A      |
  LAMP                    | N/A                                | 2  | 49.993 | 44.464 | -5.529  | 6.81 M (26.27%)  | 3.216s  | N/A      |
@@ -379,7 +379,7 @@ Leaderboard of YOLOv8 on COCO
 <details>
 <summary>3x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  MagnitudeL2            | N/A                                | 1  | 49.993 | 40.644 | -9.349  | 9.91 M (38.24%)  | 2.606s  | N/A      |
  LAMP                    | N/A                                | 2  | 49.993 | 40.112 | -9.881  | 4.03 M (15.55%)  | 3.216s  | N/A      |
@@ -405,7 +405,7 @@ Leaderboard of YOLOv8 on COCO
 <details>
 <summary>4x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------|  
  MagnitudeL1            | N/A                                | 1  | 49.993 | 38.575 | -11.418 | 6.36 M (24.57%)  | 2.884s  | N/A      |
  MagnitudeL2            | N/A                                | 2  | 49.993 | 38.361 | -11.632 | 5.52 M (21.30%)  | 2.606s  | N/A      |
@@ -436,7 +436,7 @@ Leaderboard of Resnet-18 on Imagenet
 <details>
 <summary>2x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------| 
  MagnitudeL2            | N/A                                | 1  | 69.758 | 67.724 | -2.034  | 10.52 M (90.01%)  | 0.038s  | N/A      |
  MagnitudeL1            | N/A                                | 2  | 69.758 | 67.652 | -2.106  | 10.22 M (87.41%)  | 0.023s  | N/A      |
@@ -460,7 +460,7 @@ Leaderboard of Resnet-18 on Imagenet
 <details>
 <summary>3x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------| 
  BNScale              | N/A                                | 1  | 69.758 | 63.684 | -6.074  | 6.97 M (59.59%)   | 0.026s  | N/A      |
  OBD-C\*      | N/A                                | 2  | 69.758 | 63.312 | -6.446  | 1.50 M (12.87%)   | 24.096s | N/A      |
@@ -484,7 +484,7 @@ Leaderboard of Resnet-18 on Imagenet
 <details>
 <summary>4x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------| 
  BNScale              | N/A                                | 1  | 69.758 | 61.212 | -8.546  | 5.73 M (49.06%)   | 0.026s  | N/A      |
  MagnitudeL1            | N/A                                | 2  | 69.758 | 60.760 | -8.998  | 8.14 M (69.65%)   | 0.023s  | N/A      |
@@ -516,7 +516,7 @@ Leaderboard of Resnet-50 on Imagenet
 <details>
 <summary>2x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------| 
  FPGM                   | N/A                                | 1  | 76.128 | 75.406 | -0.722  | 14.84 M (58.08%)  | 0.538s  | N/A      |
  OBD-C\*      | N/A                                | 2  | 76.128 | 74.361 | -1.767  | 12.94 M (50.65%)  | 25.448s | N/A      |
@@ -540,7 +540,7 @@ Leaderboard of Resnet-50 on Imagenet
 <details>
 <summary>3x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------| 
  MagnitudeL2            | N/A                                | 1  | 76.128 | 71.804 | -4.324  | 14.37 M (56.23%)  | 0.081s  | N/A      |
  MagnitudeL1            | N/A                                | 2  | 76.128 | 71.685 | -4.443  | 14.30 M (55.94%)  | 0.183s  | N/A      |
@@ -564,7 +564,7 @@ Leaderboard of Resnet-50 on Imagenet
 <details>
 <summary>4x</summary>
 
-| **Importance** | **Regularizer** | **Rank** | **Base** | **Pruned** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
+| **Importance** | **Regularizer** | **Rank** | **Base** | **Prune** | **Δ Acc** | **Pruning Ratio** | **Step Time** | **Reg Time** |
 |----------------|------------------|----------|----------|------------|----------|-------------------|---------------|--------------| 
  MagnitudeL2            | N/A                                | 1  | 76.128 | 69.866 | -6.262  | 11.88 M (46.49%)  | 0.081s  | N/A      |
  MagnitudeL1            | N/A                                | 2  | 76.128 | 69.471 | -6.657  | 11.94 M (46.72%)  | 0.183s  | N/A      |
